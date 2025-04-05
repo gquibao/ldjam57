@@ -40,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         transform.position = new Vector2(_xPosition, GameData.PlayerY);
-        RaiseDifficulty();
     }
 
     private void RaiseDifficulty()
