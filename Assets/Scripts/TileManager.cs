@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using Random = UnityEngine.Random;
 
 public class TileManager : MonoBehaviour
@@ -9,7 +11,14 @@ public class TileManager : MonoBehaviour
 
     private static Stack<List<Tile>> _tileStack;
     private static int _currentTiles;
-    
+
+    public static UnityEvent OnLevelChanged;
+
+    private void Awake()
+    {
+        OnLevelChanged = new UnityEvent();
+    }
+
     private void Start()
     {
         CreateTiles();
@@ -19,12 +28,12 @@ public class TileManager : MonoBehaviour
     {
         _tileStack = new();
         
-        for (var i = 0; i < 10; i++)
+        for (var i = 0; i < GameData.WorldDepth; i++)
         {
             _tileStack.Push(new List<Tile>());
             for (var j = 0; j < 7; j++)
             {
-                _tileStack.Peek().Add(CreateRandomTile(j, i - 7));
+                _tileStack.Peek().Add(CreateRandomTile(j, i - GameData.WorldDepth + GameData.PlayerY));
             }
 
             _currentTiles = _tileStack.Peek().Count;
@@ -63,5 +72,7 @@ public class TileManager : MonoBehaviour
     {
         _tileStack.Pop();
         _currentTiles = _tileStack.Peek().Count;
+        GameData.CurrentLevel++;
+        OnLevelChanged.Invoke();
     }
 }

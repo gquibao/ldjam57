@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -8,8 +9,12 @@ public class PlayerMovement : MonoBehaviour
     private float _timeElapsed;
 
     private bool _isForward = true;
-    
-    // Update is called once per frame
+
+    private void Start()
+    {
+        TileManager.OnLevelChanged.AddListener(LevelChange);
+    }
+
     void Update()
     {
         _timeElapsed += Time.deltaTime;
@@ -39,12 +44,20 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        transform.position = new Vector2(_xPosition, GameData.PlayerY);
+        UpdatePosition();
     }
 
-    private void RaiseDifficulty()
+    private void LevelChange()
     {
-        movementDelay -= 0.05f;
+        GameData.PlayerY--;
+        UpdatePosition();
+        if (GameData.CurrentLevel % 10 != 0) return;
+        movementDelay -= 0.1f;
         movementDelay = Mathf.Clamp(movementDelay, 0.1f, 1f);
+    }
+
+    private void UpdatePosition()
+    {
+        transform.position = new Vector2(_xPosition, GameData.PlayerY);
     }
 }
