@@ -14,11 +14,13 @@ public class TileManager : MonoBehaviour
 
     public static UnityEvent OnLevelChanged;
     public static UnityEvent WrongToolUsed;
+    public static UnityEvent GameFinished;
 
     private void Awake()
     {
         OnLevelChanged = new UnityEvent();
         WrongToolUsed = new UnityEvent();
+        GameFinished = new UnityEvent();
     }
 
     private void Start()
@@ -79,8 +81,16 @@ public class TileManager : MonoBehaviour
     private static void NextLevel()
     {
         _tileStack.Pop();
-        _currentTiles = _tileStack.Peek().Count;
-        GameData.CurrentLevel++;
-        OnLevelChanged.Invoke();
+        if(_tileStack.Count != 0)
+        {
+            _currentTiles = _tileStack.Peek().Count;
+            GameData.CurrentLevel++;
+            OnLevelChanged.Invoke();
+        }
+        else
+        {
+            GameFinished.Invoke();
+            Debug.Log("Winner!");
+        }
     }
 }
