@@ -9,14 +9,20 @@ public class PlayerMovement : MonoBehaviour
     private float _timeElapsed;
 
     private bool _isForward = true;
-
     private void Start()
     {
         TileManager.OnLevelChanged.AddListener(LevelChange);
     }
 
+    private void OnDestroy()
+    {
+        TileManager.OnLevelChanged.RemoveListener(LevelChange);
+    }
+
     void Update()
     {
+        if (!GameData.IsAlive()) return;
+        
         _timeElapsed += Time.deltaTime;
         if (_timeElapsed >= movementDelay)
         {

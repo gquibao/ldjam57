@@ -5,6 +5,8 @@ public class PlayerAction : MonoBehaviour
 {
     private void Update()
     {
+        if (!GameData.IsAlive()) return;
+        
         if (Input.GetKeyDown(KeyCode.A))
         {
             try

@@ -13,10 +13,12 @@ public class TileManager : MonoBehaviour
     private static int _currentTiles;
 
     public static UnityEvent OnLevelChanged;
+    public static UnityEvent WrongToolUsed;
 
     private void Awake()
     {
         OnLevelChanged = new UnityEvent();
+        WrongToolUsed = new UnityEvent();
     }
 
     private void Start()
@@ -65,6 +67,12 @@ public class TileManager : MonoBehaviour
             {
                 NextLevel();
             }
+        }
+
+        else
+        {
+            GameData.PlayerLives--;
+            WrongToolUsed.Invoke();
         }
     }
 
