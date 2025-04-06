@@ -4,6 +4,7 @@ using UnityEngine.Events;
 
 public class PlayerAction : MonoBehaviour
 {
+    [SerializeField] private Animator animator; 
     public static UnityEvent MissedTile;
 
     private void Awake()
@@ -25,6 +26,8 @@ public class PlayerAction : MonoBehaviour
             {
                 MissedTile.Invoke();
             }
+            
+            animator.SetTrigger("shovel");
         }
         
         if (Input.GetKeyDown(KeyCode.S))
@@ -37,6 +40,7 @@ public class PlayerAction : MonoBehaviour
             {
                 MissedTile.Invoke();
             }
+            animator.SetTrigger("pickaxe");
         }
     }
 }
