@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallsPool : MonoBehaviour
+public class VerticalPooling : MonoBehaviour
 {
     [SerializeField] private List<GameObject> pool;
 
-    private const float WallSize = 5;
+    [SerializeField] private float objectSize = 5;
 
     void Start()
     {
@@ -26,7 +26,7 @@ public class WallsPool : MonoBehaviour
         var temp = pool[index];
         pool.RemoveAt(index);
         pool.Add(temp);
-        var targetYPosition = temp.transform.localPosition.y - (pool.Count * WallSize);
+        var targetYPosition = temp.transform.localPosition.y - (pool.Count * objectSize);
         Debug.Log(Vector3.up * targetYPosition);
         temp.transform.localPosition = new Vector3(0, targetYPosition, 0);
     }
