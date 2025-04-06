@@ -6,7 +6,8 @@ public class BackgroundManager : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer firstBackground;
     [SerializeField] private SpriteRenderer secondBackground;
-
+    private bool _isFading;
+    
     private void Start()
     {
         TileManager.OnLevelChanged.AddListener(UpdateBackground);
@@ -15,31 +16,35 @@ public class BackgroundManager : MonoBehaviour
         secondBackground.color = new Color(.5f, .3f, 1, 0);
     }
 
+    private void Update()
+    {
+        if (_isFading)
+        {
+            FadeOutBackground(firstBackground);
+            FadeInBackground(secondBackground);
+        }
+    }
+
     private void UpdateBackground()
     {
         if (GameData.CurrentLevel % 2 == 0)
         {
-            StartCoroutine(FadeOutBackground(firstBackground));
-            StartCoroutine(FadeInBackground(secondBackground));
-            (firstBackground, secondBackground) = (secondBackground, firstBackground);
+            _isFading = true;
         }
     }
 
-    private IEnumerator FadeOutBackground(SpriteRenderer background)
+    private void FadeOutBackground(SpriteRenderer background)
     {
-        while (background.color.a > 0)
-        {
-            background.color -= new Color(0, 0, 0, 0.1f);
-            yield return new WaitForSeconds(0.05f);
-        }
+        background.color -= new Color(0, 0, 0, Time.deltaTime);
     }
     
-    private IEnumerator FadeInBackground(SpriteRenderer background)
+    private void FadeInBackground(SpriteRenderer background)
     {
-        while (background.color.a < 1)
+        background.color += new Color(0, 0, 0, Time.deltaTime);
+        if (background.color.a >= 1)
         {
-            background.color += new Color(0, 0, 0, 0.1f);
-            yield return new WaitForSeconds(0.05f);
+            (firstBackground, secondBackground) = (secondBackground, firstBackground);
+            _isFading = false;
         }
     }
 }
