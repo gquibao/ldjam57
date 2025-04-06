@@ -1,0 +1,1480 @@
+fileFormatVersion: 2
+guid: 7904f1fba60b13c44975a0b8c0ba5309
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8943507675449017492
+    second: Background_Dirt_Dino_0
+  - first:
+      213: 4305192642553200913
+    second: Background_Dirt_Dino_1
+  - first:
+      213: -9002303340026974112
+    second: Background_Dirt_Dino_2
+  - first:
+      213: 1848343541014593782
+    second: Background_Dirt_Dino_3
+  - first:
+      213: 8376965813293545734
+    second: Background_Dirt_Dino_4
+  - first:
+      213: 599053035184596626
+    second: Background_Dirt_Dino_5
+  - first:
+      213: 954595714629964286
+    second: Background_Dirt_Dino_6
+  - first:
+      213: -8081288108956571400
+    second: Background_Dirt_Dino_7
+  - first:
+      213: -7678089322683065186
+    second: Background_Dirt_Dino_8
+  - first:
+      213: -8302612655851600234
+    second: Background_Dirt_Dino_9
+  - first:
+      213: -5970947421004010307
+    second: Background_Dirt_Dino_10
+  - first:
+      213: 1079866613332930336
+    second: Background_Dirt_Dino_11
+  - first:
+      213: 1094012481266886111
+    second: Background_Dirt_Dino_12
+  - first:
+      213: 954041149318787002
+    second: Background_Dirt_Dino_13
+  - first:
+      213: 7535289086934328731
+    second: Background_Dirt_Dino_14
+  - first:
+      213: 5344429106162236859
+    second: Background_Dirt_Dino_15
+  - first:
+      213: -7315395910142808339
+    second: Background_Dirt_Dino_16
+  - first:
+      213: -7248906802911892677
+    second: Background_Dirt_Dino_17
+  - first:
+      213: -3973579991022583215
+    second: Background_Dirt_Dino_18
+  - first:
+      213: -7259545122102990857
+    second: Background_Dirt_Dino_19
+  - first:
+      213: 6193579699896422869
+    second: Background_Dirt_Dino_20
+  - first:
+      213: -1826489975630536600
+    second: Background_Dirt_Dino_21
+  - first:
+      213: -1685548166308336717
+    second: Background_Dirt_Dino_22
+  - first:
+      213: 5005797158387683928
+    second: Background_Dirt_Dino_23
+  - first:
+      213: 1726534956258954305
+    second: Background_Dirt_Dino_24
+  - first:
+      213: 6207412218505429902
+    second: Background_Dirt_Dino_25
+  - first:
+      213: -2112119677330313913
+    second: Background_Dirt_Dino_26
+  - first:
+      213: 3096842680695937620
+    second: Background_Dirt_Dino_27
+  - first:
+      213: -2091876852889759868
+    second: Background_Dirt_Dino_28
+  - first:
+      213: -4836818524595375088
+    second: Background_Dirt_Dino_29
+  - first:
+      213: 6340524427989238481
+    second: Background_Dirt_Dino_30
+  - first:
+      213: 2440461886659409354
+    second: Background_Dirt_Dino_31
+  - first:
+      213: 1845245357648256509
+    second: Background_Dirt_Dino_32
+  - first:
+      213: 4153587623351980350
+    second: Background_Dirt_Dino_33
+  - first:
+      213: 1103482630033436925
+    second: Background_Dirt_Dino_34
+  - first:
+      213: 3300312131936611336
+    second: Background_Dirt_Dino_35
+  - first:
+      213: 1540450900443483931
+    second: Background_Dirt_Dino_36
+  - first:
+      213: -1741619628132857289
+    second: Background_Dirt_Dino_37
+  - first:
+      213: -9194928888773783324
+    second: Background_Dirt_Dino_38
+  - first:
+      213: -7865445903544384931
+    second: Background_Dirt_Dino_39
+  - first:
+      213: 5682355847292017005
+    second: Background_Dirt_Dino_40
+  - first:
+      213: 3987102557891740952
+    second: Background_Dirt_Dino_41
+  - first:
+      213: -488775522114421760
+    second: Background_Dirt_Dino_42
+  - first:
+      213: -9080527049186508835
+    second: Background_Dirt_Dino_43
+  - first:
+      213: 7570480643408203445
+    second: Background_Dirt_Dino_44
+  - first:
+      213: -8084613898014683154
+    second: Background_Dirt_Dino_45
+  - first:
+      213: -5725751584290334217
+    second: Background_Dirt_Dino_46
+  - first:
+      213: 4616757380545401325
+    second: Background_Dirt_Dino_47
+  - first:
+      213: -1626370294334724980
+    second: Background_Dirt_Dino_48
+  - first:
+      213: -7062491104678566099
+    second: Background_Dirt_Dino_49
+  - first:
+      213: 704285491574438532
+    second: Background_Dirt_Dino_50
+  - first:
+      213: 5704621171453691999
+    second: Background_Dirt_Dino_51
+  - first:
+      213: -7417155058641203966
+    second: Background_Dirt_Dino_52
+  - first:
+      213: -1745127955786146663
+    second: Background_Dirt_Dino_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_0
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1347
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4944e1998d8bd1c70800000000000000
+      internalID: 8943507675449017492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 2560
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111420506ed1fbb30800000000000000
+      internalID: 4305192642553200913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_2
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1253
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0603169fec4611380800000000000000
+      internalID: -9002303340026974112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_3
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 1212
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0001958a2a6a910800000000000000
+      internalID: 1848343541014593782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_4
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1262
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609f3fc2606f04470800000000000000
+      internalID: 8376965813293545734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_5
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1253
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2962cc3cf83405800800000000000000
+      internalID: 599053035184596626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_6
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1205
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef111aaaeb76f3d00800000000000000
+      internalID: 954595714629964286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f82e0a084f79df80800000000000000
+      internalID: -8081288108956571400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_8
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 54
+        width: 935
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c91c7f072f17590800000000000000
+      internalID: -7678089322683065186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_9
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 292
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6968d4457c137cc80800000000000000
+      internalID: -8302612655851600234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_10
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 319
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc658eb4fee22da0800000000000000
+      internalID: -5970947421004010307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_11
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 56
+        width: 442
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f6384a6f47cfe00800000000000000
+      internalID: 1079866613332930336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_12
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 56
+        width: 256
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5a1cd2e86be2f00800000000000000
+      internalID: 1094012481266886111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 256
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf604ede5f6d3d00800000000000000
+      internalID: 954041149318787002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_14
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 257
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95299a3089b29860800000000000000
+      internalID: 7535289086934328731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 260
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdfe00c4f93b2a40800000000000000
+      internalID: 5344429106162236859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_16
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 257
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deea798ad2e7a7a90800000000000000
+      internalID: -7315395910142808339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_17
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 183
+        width: 124
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b268a4ba5b66b90800000000000000
+      internalID: -7248906802911892677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_18
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 214
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152cf741d020bd8c0800000000000000
+      internalID: -3973579991022583215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 170
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7a1269c2ae04b90800000000000000
+      internalID: -7259545122102990857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 179
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1956c0ce304f550800000000000000
+      internalID: 6193579699896422869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_21
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 168
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860eab85b0107a6e0800000000000000
+      internalID: -1826489975630536600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_22
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 188
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb61678fdabb98e0800000000000000
+      internalID: -1685548166308336717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_23
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 178
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8529b536ef9287540800000000000000
+      internalID: 5005797158387683928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 178
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c0c182562e5f710800000000000000
+      internalID: 1726534956258954305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 172
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e838f624688252650800000000000000
+      internalID: 6207412218505429902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_26
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 169
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d2d9d085e30b2e0800000000000000
+      internalID: -2112119677330313913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 112
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a5624a2023afa20800000000000000
+      internalID: 3096842680695937620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_28
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 155
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fc4a5e51928f2e0800000000000000
+      internalID: -2091876852889759868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_29
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 127
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014b67ead2b20ecb0800000000000000
+      internalID: -4836818524595375088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_30
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 162
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d24cfbaf511ef750800000000000000
+      internalID: 6340524427989238481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_31
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 149
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5b632e7234ed120800000000000000
+      internalID: 2440461886659409354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_32
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 123
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd101250e0ab9910800000000000000
+      internalID: 1845245357648256509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_33
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 122
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e319a51dfe184a930800000000000000
+      internalID: 4153587623351980350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 124
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0f4f20b9b505f00800000000000000
+      internalID: 1103482630033436925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_35
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 123
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c6effe5601dcd20800000000000000
+      internalID: 3300312131936611336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_36
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 113
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f4ddaaee7c06510800000000000000
+      internalID: 1540450900443483931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_37
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 98
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a0b4bfc2684d7e0800000000000000
+      internalID: -1741619628132857289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_38
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 110
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e059a974ec056080800000000000000
+      internalID: -9194928888773783324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_39
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 114
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d528f27af9258d290800000000000000
+      internalID: -7865445903544384931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_40
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 79
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6954356988cbde40800000000000000
+      internalID: 5682355847292017005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_41
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 71
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815403ed6a8055730800000000000000
+      internalID: 3987102557891740952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_42
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 63
+        width: 99
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cb67590458739f0800000000000000
+      internalID: -488775522114421760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_43
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 91
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf79eb62cc7bf180800000000000000
+      internalID: -9080527049186508835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_44
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 105
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be0159f800cf0960800000000000000
+      internalID: 7570480643408203445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_45
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 77
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef06ae6e7eadcf80800000000000000
+      internalID: -8084613898014683154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 78
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f99e3a354b0a80b0800000000000000
+      internalID: -5725751584290334217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_47
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 70
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de152918064021040800000000000000
+      internalID: 4616757380545401325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_48
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 60
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c846eec85d8fd69e0800000000000000
+      internalID: -1626370294334724980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_49
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 42
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27274c42cdfcfd90800000000000000
+      internalID: -7062491104678566099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_50
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 50
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a71c15cef16c900800000000000000
+      internalID: 704285491574438532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_51
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 42
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f588ba62bb2ea2f40800000000000000
+      internalID: 5704621171453691999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_52
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 52
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d03bd95c8f01990800000000000000
+      internalID: -7417155058641203966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_Dirt_Dino_53
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 50
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c53cbce5f08c7e0800000000000000
+      internalID: -1745127955786146663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
