@@ -21,5 +21,7 @@ public class CameraMovement : MonoBehaviour
             var yPosition = transform.position.y - 5;
             transform.position = new Vector3(3, yPosition, -10);
         }
+        
+        //TODO smooth camera movement
     }
 }
