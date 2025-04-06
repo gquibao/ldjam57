@@ -41,7 +41,7 @@ public class TileManager : MonoBehaviour
             _tileStack.Push(new List<Tile>());
             for (var j = 0; j < 7; j++)
             {
-                _tileStack.Peek().Add(CreateRandomTile(j, i - GameData.WorldDepth + GameData.PlayerY));
+                _tileStack.Peek().Add(CreateRandomTile(j, i - GameData.WorldDepth + GameData.PlayerY - 1));
             }
 
             _currentTiles = _tileStack.Peek().Count;
