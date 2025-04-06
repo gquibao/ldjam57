@@ -8,6 +8,13 @@ public class GameData
     public static int PlayerLives = 3;
     public static readonly int WorldDepth = 100;
 
+    public static void ResetGame()
+    {
+        PlayerY = 3;
+        CurrentLevel = 1;
+        PlayerLives = 3;
+    }
+    
     public static bool IsAlive()
     {
         return PlayerLives != 0;

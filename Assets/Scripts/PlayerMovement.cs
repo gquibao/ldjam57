@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,6 +10,14 @@ public class PlayerMovement : MonoBehaviour
     private float _timeElapsed;
 
     private bool _isForward = true;
+
+    public static UnityEvent PlayerDied;
+
+    private void Awake()
+    {
+        PlayerDied = new UnityEvent();
+    }
+
     private void Start()
     {
         TileManager.OnLevelChanged.AddListener(LevelChange);
@@ -21,7 +30,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!GameData.IsAlive()) return;
+        if (!GameData.IsAlive())
+        {
+            PlayerDied.Invoke();
+            return;
+        }
         
         _timeElapsed += Time.deltaTime;
         if (_timeElapsed >= movementDelay)
@@ -59,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
         UpdatePosition();
         if (GameData.CurrentLevel % 10 != 0) return;
         movementDelay -= 0.1f;
-        movementDelay = Mathf.Clamp(movementDelay, 0.1f, 1f);
+        movementDelay = Mathf.Clamp(movementDelay, 0.05f, 1f);
     }
 
     private void UpdatePosition()

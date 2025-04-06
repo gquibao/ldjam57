@@ -14,6 +14,8 @@ public class TileManager : MonoBehaviour
 
     public static UnityEvent OnLevelChanged;
     public static UnityEvent WrongToolUsed;
+    public static UnityEvent PickaxeUsed;
+    public static UnityEvent ShovelUsed;
     public static UnityEvent GameFinished;
 
     private void Awake()
@@ -21,6 +23,8 @@ public class TileManager : MonoBehaviour
         OnLevelChanged = new UnityEvent();
         WrongToolUsed = new UnityEvent();
         GameFinished = new UnityEvent();
+        PickaxeUsed = new UnityEvent();
+        ShovelUsed = new UnityEvent();
     }
 
     private void Start()
@@ -31,7 +35,7 @@ public class TileManager : MonoBehaviour
     private void CreateTiles()
     {
         _tileStack = new();
-        
+
         for (var i = 0; i < GameData.WorldDepth; i++)
         {
             _tileStack.Push(new List<Tile>());
@@ -43,7 +47,7 @@ public class TileManager : MonoBehaviour
             _currentTiles = _tileStack.Peek().Count;
         }
     }
-    
+
     private Tile CreateRandomTile(int x, int y)
     {
         GameObject tileObject;
@@ -61,10 +65,23 @@ public class TileManager : MonoBehaviour
 
     public static void InteractWithTile(int x, TileType type)
     {
-        if (_tileStack.Peek()[x].type == type)
+        var tile = _tileStack.Peek()[x];
+        
+        if (tile.type == type)
         {
+            if (type == TileType.Stone)
+            {
+                PickaxeUsed.Invoke();
+            }
+            else
+            {
+                ShovelUsed.Invoke();
+            }
+
             _tileStack.Peek()[x].DestroyTile();
             _currentTiles--;
+            _tileStack.Peek()[x] = null;
+            
             if (_currentTiles == 0)
             {
                 NextLevel();
@@ -81,7 +98,7 @@ public class TileManager : MonoBehaviour
     private static void NextLevel()
     {
         _tileStack.Pop();
-        if(_tileStack.Count != 0)
+        if (_tileStack.Count != 0)
         {
             _currentTiles = _tileStack.Peek().Count;
             GameData.CurrentLevel++;
@@ -90,7 +107,6 @@ public class TileManager : MonoBehaviour
         else
         {
             GameFinished.Invoke();
-            Debug.Log("Winner!");
         }
     }
 }
