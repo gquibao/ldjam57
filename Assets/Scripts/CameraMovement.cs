@@ -17,9 +17,15 @@ public class CameraMovement : MonoBehaviour
 
     private void CheckForMovement()
     {
-        if (GameData.CurrentLevel % 5 == 0)
+        var currentLevel = GameData.CurrentLevel;
+        if (currentLevel == 2)
         {
-            var yPosition = transform.position.y - 4;
+            var yPosition = transform.position.y - 3;
+            StartCoroutine(MoveCamera(yPosition));
+        }
+        else if (currentLevel % 5 == 0)
+        {
+            var yPosition = transform.position.y - 5;
             StartCoroutine(MoveCamera(yPosition));
         }
     }
