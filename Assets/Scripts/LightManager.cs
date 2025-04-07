@@ -21,14 +21,14 @@ public class LightManager : MonoBehaviour
         {
             globalLight.intensity -= 0.3f;
         }
-        else if (GameData.CurrentLevel > GameData.SecondLayer && GameData.CurrentLevel < GameData.ThirdLayer)
+        else if (GameData.CurrentLevel > GameData.SecondLayer && GameData.CurrentLevel < GameData.ThirdLayer - 3)
         {
             globalLight.intensity -= 0.2f;
         }
-        else if (GameData.CurrentLevel == GameData.ThirdLayer)
+        else if (GameData.CurrentLevel >= GameData.ThirdLayer - 3)
         {
             globalLight.color = new Color(0.7f, 0.3f, 0.1f);
-            globalLight.intensity = 0.1f;
+            globalLight.intensity += 0.05f;
         }
     }
 }
