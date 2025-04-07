@@ -6,6 +6,7 @@ public class BackgroundManager : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer firstBackground;
     [SerializeField] private SpriteRenderer secondBackground;
+    [SerializeField] private SpriteRenderer thirdBackground;
     private bool _isFading;
     
     private void Start()
@@ -13,7 +14,8 @@ public class BackgroundManager : MonoBehaviour
         TileManager.OnLevelChanged.AddListener(UpdateBackground);
         
         firstBackground.color = Color.white;
-        secondBackground.color = new Color(.5f, .3f, 1, 0);
+        secondBackground.color = new Color(1, 1, 1, 0);
+        thirdBackground.color = new Color(1, 1, 1, 0);
     }
 
     private void Update()
@@ -43,6 +45,7 @@ public class BackgroundManager : MonoBehaviour
         background.color += new Color(0, 0, 0, Time.deltaTime);
         if (background.color.a >= 1)
         {
+            (firstBackground, thirdBackground) = (thirdBackground, firstBackground);
             (firstBackground, secondBackground) = (secondBackground, firstBackground);
             _isFading = false;
         }

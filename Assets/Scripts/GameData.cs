@@ -6,7 +6,7 @@ public class GameData
     public static int PlayerY = 3;
     public static int CurrentLevel = 1;
     public static int PlayerLives = 3;
-    public static readonly int WorldDepth = 100;
+    public static readonly int WorldDepth = 60;
 
     public static void ResetGame()
     {

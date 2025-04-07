@@ -397,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background_Sky_Clouds_0: -5113632912794697537
+      Background_Sky_Clouds_1: 294572154460144891
+      Background_Sky_Clouds_10: -4479707387210192581
+      Background_Sky_Clouds_2: 3377739614507232382
+      Background_Sky_Clouds_3: 105250824043667405
+      Background_Sky_Clouds_4: 1131984975904639899
+      Background_Sky_Clouds_5: 8371126355929451593
+      Background_Sky_Clouds_6: 780078275255620894
+      Background_Sky_Clouds_7: -4923744479244376070
+      Background_Sky_Clouds_8: -6212461968158472301
+      Background_Sky_Clouds_9: -8183440005667900811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

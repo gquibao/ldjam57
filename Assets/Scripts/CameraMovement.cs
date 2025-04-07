@@ -30,14 +30,9 @@ public class CameraMovement : MonoBehaviour
     private void CheckForMovement()
     {
         var currentLevel = GameData.CurrentLevel;
-        if (currentLevel == 2)
+        if (currentLevel % 2 == 0)
         {
-            _yTarget = transform.position.y - 3;
-            _isMoving = true;
-        }
-        else if (currentLevel % 5 == 0)
-        {
-            _yTarget = transform.position.y - 5;
+            _yTarget = transform.position.y - 2;
             _isMoving = true;
         }
     }

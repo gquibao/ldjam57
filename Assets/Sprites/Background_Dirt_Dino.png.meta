@@ -1472,7 +1472,61 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background_Dirt_Dino_0: 8943507675449017492
+      Background_Dirt_Dino_1: 4305192642553200913
+      Background_Dirt_Dino_10: -5970947421004010307
+      Background_Dirt_Dino_11: 1079866613332930336
+      Background_Dirt_Dino_12: 1094012481266886111
+      Background_Dirt_Dino_13: 954041149318787002
+      Background_Dirt_Dino_14: 7535289086934328731
+      Background_Dirt_Dino_15: 5344429106162236859
+      Background_Dirt_Dino_16: -7315395910142808339
+      Background_Dirt_Dino_17: -7248906802911892677
+      Background_Dirt_Dino_18: -3973579991022583215
+      Background_Dirt_Dino_19: -7259545122102990857
+      Background_Dirt_Dino_2: -9002303340026974112
+      Background_Dirt_Dino_20: 6193579699896422869
+      Background_Dirt_Dino_21: -1826489975630536600
+      Background_Dirt_Dino_22: -1685548166308336717
+      Background_Dirt_Dino_23: 5005797158387683928
+      Background_Dirt_Dino_24: 1726534956258954305
+      Background_Dirt_Dino_25: 6207412218505429902
+      Background_Dirt_Dino_26: -2112119677330313913
+      Background_Dirt_Dino_27: 3096842680695937620
+      Background_Dirt_Dino_28: -2091876852889759868
+      Background_Dirt_Dino_29: -4836818524595375088
+      Background_Dirt_Dino_3: 1848343541014593782
+      Background_Dirt_Dino_30: 6340524427989238481
+      Background_Dirt_Dino_31: 2440461886659409354
+      Background_Dirt_Dino_32: 1845245357648256509
+      Background_Dirt_Dino_33: 4153587623351980350
+      Background_Dirt_Dino_34: 1103482630033436925
+      Background_Dirt_Dino_35: 3300312131936611336
+      Background_Dirt_Dino_36: 1540450900443483931
+      Background_Dirt_Dino_37: -1741619628132857289
+      Background_Dirt_Dino_38: -9194928888773783324
+      Background_Dirt_Dino_39: -7865445903544384931
+      Background_Dirt_Dino_4: 8376965813293545734
+      Background_Dirt_Dino_40: 5682355847292017005
+      Background_Dirt_Dino_41: 3987102557891740952
+      Background_Dirt_Dino_42: -488775522114421760
+      Background_Dirt_Dino_43: -9080527049186508835
+      Background_Dirt_Dino_44: 7570480643408203445
+      Background_Dirt_Dino_45: -8084613898014683154
+      Background_Dirt_Dino_46: -5725751584290334217
+      Background_Dirt_Dino_47: 4616757380545401325
+      Background_Dirt_Dino_48: -1626370294334724980
+      Background_Dirt_Dino_49: -7062491104678566099
+      Background_Dirt_Dino_5: 599053035184596626
+      Background_Dirt_Dino_50: 704285491574438532
+      Background_Dirt_Dino_51: 5704621171453691999
+      Background_Dirt_Dino_52: -7417155058641203966
+      Background_Dirt_Dino_53: -1745127955786146663
+      Background_Dirt_Dino_6: 954595714629964286
+      Background_Dirt_Dino_7: -8081288108956571400
+      Background_Dirt_Dino_8: -7678089322683065186
+      Background_Dirt_Dino_9: -8302612655851600234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
