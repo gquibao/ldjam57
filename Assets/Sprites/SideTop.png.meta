@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6b67f860e3998b34da56483ae08b2892
+guid: 4baeb3797dfb3b74d99b2dcd0dd34184
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4853201741831800970
-    second: SideRock_0
+      213: 4691853966811719272
+    second: SideTop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SideRock_0
+      name: SideTop_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 400
-        height: 1440
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a88013555490a5340800000000000000
-      internalID: 4853201741831800970
+      spriteID: 866e1d50350dc1140800000000000000
+      internalID: 4691853966811719272
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1e036b921e24400489050468bfc371f5
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SideRock_0: 4853201741831800970
+      SideTop_0: 4691853966811719272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
