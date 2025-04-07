@@ -6,6 +6,9 @@ public class GameData
     public static int PlayerY = 3;
     public static int CurrentLevel = 1;
     public static int PlayerLives = 3;
+    public static int FirstLayer = 0;
+    public static int SecondLayer = 4;
+    public static int ThirdLayer = 10;
     public static readonly int WorldDepth = 40;
 
     public static void ResetGame()
