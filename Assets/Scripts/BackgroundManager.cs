@@ -29,7 +29,7 @@ public class BackgroundManager : MonoBehaviour
 
     private void UpdateBackground()
     {
-        if (GameData.CurrentLevel == 4 || GameData.CurrentLevel == 10)
+        if (GameData.CurrentLevel == GameData.SecondLayer || GameData.CurrentLevel == GameData.ThirdLayer)
         {
             _isFading = true;
         }
