@@ -14,7 +14,7 @@ public class PlayerAction : MonoBehaviour
 
     private void Update()
     {
-        if (!GameData.IsAlive()) return;
+        if (!GameData.IsPlaying || !GameData.IsAlive()) return;
         
         if (Input.GetKeyDown(KeyCode.A))
         {
@@ -30,7 +30,7 @@ public class PlayerAction : MonoBehaviour
             animator.SetTrigger("shovel");
         }
         
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             try
             {

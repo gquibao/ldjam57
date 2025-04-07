@@ -30,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!GameData.IsPlaying) return;
+        
         if (!GameData.IsAlive())
         {
             PlayerDied.Invoke();
