@@ -29,7 +29,7 @@ public class BackgroundManager : MonoBehaviour
 
     private void UpdateBackground()
     {
-        if (GameData.CurrentLevel % 2 == 0)
+        if (GameData.CurrentLevel == 4 || GameData.CurrentLevel == 20)
         {
             _isFading = true;
         }
