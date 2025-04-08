@@ -17,6 +17,8 @@ public class TileManager : MonoBehaviour
     public static UnityEvent PickaxeUsed;
     public static UnityEvent ShovelUsed;
     public static UnityEvent GameFinished;
+    public static UnityEvent MissedTile;
+
 
     private void Awake()
     {
@@ -25,6 +27,7 @@ public class TileManager : MonoBehaviour
         GameFinished = new UnityEvent();
         PickaxeUsed = new UnityEvent();
         ShovelUsed = new UnityEvent();
+        MissedTile = new UnityEvent();
     }
 
     private void Start()
@@ -65,6 +68,11 @@ public class TileManager : MonoBehaviour
 
     public static void InteractWithTile(int x, TileType type)
     {
+        if (!_tileStack.Peek()[x])
+        {
+            MissedTile.Invoke();
+            return;
+        }
         var tile = _tileStack.Peek()[x];
         
         if (tile.type == type)
@@ -106,6 +114,9 @@ public class TileManager : MonoBehaviour
         }
         else
         {
+            WrongToolUsed.Invoke();
+            WrongToolUsed.Invoke();
+            WrongToolUsed.Invoke();
             GameFinished.Invoke();
         }
     }

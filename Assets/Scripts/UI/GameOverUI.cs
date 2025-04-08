@@ -23,8 +23,16 @@ namespace UI
 
         private void ShowGameOver()
         {
-            gameOverObject.SetActive(true);
-            messageTxt.text = $"You have reached level {GameData.CurrentLevel}";
+            if (GameData.CurrentLevel == 40)
+            {
+                gameOverObject.SetActive(true);
+                messageTxt.text = $"I didn't think of an interesting ending to this game, sorry. Thanks for playing though, hope you enjoyed it!";
+            }
+            else
+            {
+                gameOverObject.SetActive(true);
+                messageTxt.text = $"You have reached level {GameData.CurrentLevel}";
+            }   
         }
 
         private void Retry()

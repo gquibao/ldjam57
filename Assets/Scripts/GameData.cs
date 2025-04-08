@@ -21,6 +21,6 @@ public class GameData
     
     public static bool IsAlive()
     {
-        return PlayerLives != 0;
+        return PlayerLives > 0;
     }
 }

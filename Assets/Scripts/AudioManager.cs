@@ -20,7 +20,7 @@ public class AudioManager : MonoBehaviour
         TileManager.WrongToolUsed.AddListener(PlayWrongToolSound);
         TileManager.PickaxeUsed.AddListener(PlayPickaxeSound);
         TileManager.ShovelUsed.AddListener(PlayShovelSound);
-        PlayerAction.MissedTile.AddListener(MissedTileSound);
+        TileManager.MissedTile.AddListener(MissedTileSound);
 
         PlayMusic();
         RocketsSound();
