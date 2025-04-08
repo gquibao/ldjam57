@@ -48,15 +48,29 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            TileManager.InteractWithTile((int)transform.position.x, TileType.Dirt);
-            animator.SetTrigger("shovel");
+            UseTool(TileType.Dirt);
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            TileManager.InteractWithTile((int)transform.position.x, TileType.Stone);
-            animator.SetTrigger("pickaxe");
+            UseTool(TileType.Stone);
         }
+    }
+
+    public void UseTool(int toolId)
+    {
+        if (GameData.IsPlaying && GameData.IsAlive())
+        {
+            var type = toolId == 0 ? TileType.Dirt : TileType.Stone;
+            UseTool(type);
+        }
+    }
+    
+    private void UseTool(TileType type)
+    {
+        TileManager.InteractWithTile((int)transform.position.x, type);
+        var animTrigger = type == TileType.Stone ? "pickaxe" : "shovel";
+        animator.SetTrigger(animTrigger);
     }
 
     private void Move()
