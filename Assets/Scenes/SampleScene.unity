@@ -176,7 +176,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YOU HAVE REACHED THE NTH LEVEL
+  m_text: I didn't think of an interesting ending to this game, sorry. Thanks for
+    playing though, hope you enjoyed it!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a122f7dc3b438d4ab6c5c5206c02b8a, type: 2}
   m_sharedMaterial: {fileID: -927271248026095672, guid: 1a122f7dc3b438d4ab6c5c5206c02b8a, type: 2}
@@ -5121,37 +5122,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1037610720032776316, guid: a9def493c3d8d53479a900aa75ce8b80, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1037610720032776316, guid: a9def493c3d8d53479a900aa75ce8b80, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1037610720032776316, guid: a9def493c3d8d53479a900aa75ce8b80, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1470990999839947505, guid: a9def493c3d8d53479a900aa75ce8b80, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1853984642049619040, guid: a9def493c3d8d53479a900aa75ce8b80, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 5351522707845391651, guid: a9def493c3d8d53479a900aa75ce8b80, type: 3}
-      propertyPath: m_Color.b
-      value: 0.8352941
-      objectReference: {fileID: 0}
-    - target: {fileID: 5351522707845391651, guid: a9def493c3d8d53479a900aa75ce8b80, type: 3}
-      propertyPath: m_Color.g
-      value: 0.9529412
-      objectReference: {fileID: 0}
-    - target: {fileID: 6764535175054186377, guid: a9def493c3d8d53479a900aa75ce8b80, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

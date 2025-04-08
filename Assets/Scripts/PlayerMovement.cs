@@ -4,6 +4,7 @@ using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private Animator animator;
     [SerializeField] private float movementDelay = 1f;
 
     private float _xPosition;
@@ -43,6 +44,18 @@ public class PlayerMovement : MonoBehaviour
         {
             Move();
             _timeElapsed = 0;
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            TileManager.InteractWithTile((int)transform.position.x, TileType.Dirt);
+            animator.SetTrigger("shovel");
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            TileManager.InteractWithTile((int)transform.position.x, TileType.Stone);
+            animator.SetTrigger("pickaxe");
         }
     }
 

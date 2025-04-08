@@ -15,8 +15,8 @@ public class TileManager : MonoBehaviour
     public static UnityEvent OnLevelChanged;
     public static UnityEvent WrongToolUsed;
     public static UnityEvent PickaxeUsed;
-    public static UnityEvent ShovelUsed;
     public static UnityEvent GameFinished;
+    public static UnityEvent ShovelUsed;
     public static UnityEvent MissedTile;
 
 
@@ -106,7 +106,7 @@ public class TileManager : MonoBehaviour
     private static void NextLevel()
     {
         _tileStack.Pop();
-        if (_tileStack.Count != 0)
+        if (GameData.CurrentLevel != GameData.WorldDepth && _tileStack.Count != 0)
         {
             _currentTiles = _tileStack.Peek().Count;
             GameData.CurrentLevel++;
@@ -114,9 +114,6 @@ public class TileManager : MonoBehaviour
         }
         else
         {
-            WrongToolUsed.Invoke();
-            WrongToolUsed.Invoke();
-            WrongToolUsed.Invoke();
             GameFinished.Invoke();
         }
     }

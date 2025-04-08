@@ -6,10 +6,6 @@ public class PlayerAction : MonoBehaviour
 {
     [SerializeField] private Animator animator;
 
-    private void Awake()
-    {
-    }
-
     private void Update()
     {
         if (!GameData.IsPlaying || !GameData.IsAlive()) return;
