@@ -157,7 +157,7 @@ Transform:
   m_GameObject: {fileID: 1221318591061357121}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0028980763, y: -0.008635101, z: -0.3181614, w: 0.9479928}
-  m_LocalPosition: {x: 0.296, y: 0.24900007, z: 0}
+  m_LocalPosition: {x: 0.296, y: 0.24900007, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -229,7 +229,6 @@ GameObject:
   - component: {fileID: 966838251012491399}
   - component: {fileID: 1037610720032776316}
   - component: {fileID: 1455339054278167833}
-  - component: {fileID: 1974327240020519570}
   - component: {fileID: 287388788758531348}
   - component: {fileID: 2710053007942817409}
   m_Layer: 0
@@ -325,20 +324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 721dbdcd71b52ba489277102fa44d090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementDelay: 0.5
---- !u!114 &1974327240020519570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470990999839947505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 818197b76fa530e4cb778ee3ce629ad6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   animator: {fileID: 2710053007942817409}
+  movementDelay: 0.5
 --- !u!82 &287388788758531348
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5317,7 +5304,7 @@ Transform:
   m_GameObject: {fileID: 3444051791102377055}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.36759278, w: 0.9299869}
-  m_LocalPosition: {x: -0.386, y: 0.315, z: 0}
+  m_LocalPosition: {x: -0.386, y: 0.315, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5510,7 +5497,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 0.9949537, b: 0.9198113, a: 1}
+  m_Color: {r: 1, g: 0.9529412, b: 0.8352941, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
